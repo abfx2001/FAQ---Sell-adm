@@ -1,6 +1,7 @@
 # AlpineJS + TailwindCSS
 
-* version 1.0.0.1
+* version 1.0.2.1
 
 ### Patch Notes
-    mais testes com tamanho e mais componentes
+    Mais testes com tamanho e mais componentes;
+    Troca de palheta de cores e adição de imagens;

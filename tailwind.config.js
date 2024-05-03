@@ -5,7 +5,14 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {},
+    fontFamily: {
+      sans: ['Poppins', 'sans-serif'], 
+    },
+    extend: {
+      fontWeight: {
+        'medium': 400,
+      }
+    },
   },
   plugins: [],
 }
