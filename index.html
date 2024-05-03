@@ -29,7 +29,7 @@
       >
       <button
         x-on:click="openTab !== 1 ? openTab = 1 : openTab = null"
-        class="w-full flex justify-between items-center border-2 border-black rounded p-4 bg-gray-300"
+        class="w-full flex justify-between items-center border-2 border-gray-200 rounded p-4 bg-gray-300"
       >
         <h2>texto de ajuda com o problema texto muito grande para verificaro tamanho</h2>
 
@@ -51,19 +51,34 @@
       <div
         x-show="openTab === 1"
         x-collapse.duration.500ms
-        class="border-2 border-black border-t-0 rounded-bl rounded-br bg-gray-200"
+        class="border-2 border-gray-100 border-t-0 rounded-bl rounded-br bg-gray-200"
       >
         <p class="p-4">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto ut
           placeat temporibus, tempora dolorem qui quod quaerat maiores
           voluptatum neque animi veritatis pariatur. Consequuntur, minus.
           Perspiciatis nihil ab reprehenderit delectus!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas
+           officia 
+          labore a excepturi temporibus dignissimos iusto maiores odio eaque! 
+          Tempora vero quia praesentium inventore quae accusamus eaque, 
+          
+          a voluptate.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+           est, libero corporis illo aspernatur quasi assumenda laborum 
+           blanditiis accusamus, voluptatibus quo commodi modi reiciendis 
+           recusandae exercitationem, omnis ducimus quaerat? Amet.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis 
+          numquam accusamus facere, molestias adipisci alias, distinctio 
+          provident beatae odio soluta quidem est qui incidunt maxime, quas 
+          ipsa dolorem delectus nihil?
+
         </p>
       </div>      
       
       <button
         x-on:click="openTab !== 2 ? openTab = 2 : openTab = null"
-        class="w-full flex justify-between items-center border-2 border-black rounded p-4 bg-gray-300 mt-2"
+        class="w-full flex justify-between items-center border-2 border-gray-200 rounded p-4 bg-gray-300 mt-2"
       >
         <h2>texto de ajuda com o problema texto muito grande para verificaro tamanho</h2>
 
@@ -85,7 +100,7 @@
       <div
         x-show="openTab === 2"
         x-collapse.duration.500ms
-        class="border-2 border-black border-t-0 rounded-bl rounded-br bg-gray-200"
+        class="border-2 border-gray-200 border-t-0 rounded-bl rounded-br bg-gray-200"
       >
         <p class="p-4">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto ut
@@ -93,7 +108,143 @@
           voluptatum neque animi veritatis pariatur. Consequuntur, minus.
           Perspiciatis nihil ab reprehenderit delectus!
         </p>
-      </div> 
+      </div>
+      
+      <button
+        x-on:click="openTab !== 3 ? openTab = 3 : openTab = null"
+        class="w-full flex justify-between items-center border-2 border-gray-200 rounded p-4 bg-gray-300 mt-2"
+      >
+        <h2>texto de ajuda com o problema texto muito grande para verificaro tamanho</h2>
+
+        <svg
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            stroke-width="0"
+            fill="#000"
+            class="transition hidden lg:inline-block"
+            :class="{ '-rotate-180': openTab === 3 }"
+          >
+            <path
+              d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"
+            />
+        </svg>
+      </button>
+      <div
+        x-show="openTab === 3"
+        x-collapse.duration.500ms
+        class="border-2 border-gray-200 border-t-0 rounded-bl rounded-br bg-gray-200"
+      >
+        <p class="p-4">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto ut
+          placeat temporibus, tempora dolorem qui quod quaerat maiores
+          voluptatum neque animi veritatis pariatur. Consequuntur, minus.
+          Perspiciatis nihil ab reprehenderit delectus!
+        </p>
+      </div>
+
+      <button
+        x-on:click="openTab !== 4 ? openTab = 4 : openTab = null"
+        class="w-full flex justify-between items-center border-2 border-gray-200 rounded p-4 bg-gray-300 mt-2"
+      >
+        <h2>texto de ajuda com o problema texto muito grande para verificaro tamanho</h2>
+
+        <svg
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            stroke-width="0"
+            fill="#000"
+            class="transition hidden lg:inline-block"
+            :class="{ '-rotate-180': openTab === 4 }"
+          >
+            <path
+              d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"
+            />
+        </svg>
+      </button>
+      <div
+        x-show="openTab === 4"
+        x-collapse.duration.500ms
+        class="border-2 border-gray-200 border-t-0 rounded-bl rounded-br bg-gray-200"
+      >
+        <p class="p-4">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto ut
+          placeat temporibus, tempora dolorem qui quod quaerat maiores
+          voluptatum neque animi veritatis pariatur. Consequuntur, minus.
+          Perspiciatis nihil ab reprehenderit delectus!
+        </p>
+      </div>
+
+      <button
+        x-on:click="openTab !== 5 ? openTab = 5 : openTab = null"
+        class="w-full flex justify-between items-center border-2 border-gray-200 rounded p-4 bg-gray-300 mt-2"
+      >
+        <h2>texto de ajuda com o problema texto muito grande para verificaro tamanho</h2>
+
+        <svg
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            stroke-width="0"
+            fill="#000"
+            class="transition hidden lg:inline-block"
+            :class="{ '-rotate-180': openTab === 5 }"
+          >
+            <path
+              d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"
+            />
+        </svg>
+      </button>
+      <div
+        x-show="openTab === 5"
+        x-collapse.duration.500ms
+        class="border-2 border-gray-200 border-t-0 rounded-bl rounded-br bg-gray-200"
+      >
+        <p class="p-4">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto ut
+          placeat temporibus, tempora dolorem qui quod quaerat maiores
+          voluptatum neque animi veritatis pariatur. Consequuntur, minus.
+          Perspiciatis nihil ab reprehenderit delectus!
+        </p>
+      </div>
+
+      <button
+        x-on:click="openTab !== 6 ? openTab = 6 : openTab = null"
+        class="w-full flex justify-between items-center border-2 border-gray-200 rounded p-4 bg-gray-300 mt-2"
+      >
+        <h2>texto de ajuda com o problema texto muito grande para verificaro tamanho</h2>
+
+        <svg
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            stroke-width="0"
+            fill="#000"
+            class="transition hidden lg:inline-block"
+            :class="{ '-rotate-180': openTab === 6 }"
+          >
+            <path
+              d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"
+            />
+        </svg>
+      </button>
+      <div
+        x-show="openTab === 6"
+        x-collapse.duration.500ms
+        class="border-2 border-gray-200 border-t-0 rounded-bl rounded-br bg-gray-200"
+      >
+        <p class="p-4">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto ut
+          placeat temporibus, tempora dolorem qui quod quaerat maiores
+          voluptatum neque animi veritatis pariatur. Consequuntur, minus.
+          Perspiciatis nihil ab reprehenderit delectus!
+        </p>
+      </div>
     </div>
   </body>
 </html>
